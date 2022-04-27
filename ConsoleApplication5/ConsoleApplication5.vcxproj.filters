@@ -22,15 +22,27 @@
     <Filter Include="main">
       <UniqueIdentifier>{5c00f3e7-c69a-45be-b6b7-29e1148c7dc4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\ent\Market">
+      <UniqueIdentifier>{617aa759-fc04-4e20-a738-2e180621bdf2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main\main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="Core\ent\market\Marter.cpp">
+      <Filter>Core\ent\Market</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\Lib\Lib.h">
       <Filter>Core\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ent\market\Market.h">
+      <Filter>Core\ent\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu\Menu.h">
+      <Filter>UI\Menu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

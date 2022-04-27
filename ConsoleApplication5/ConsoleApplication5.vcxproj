@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core\ent\market\Marter.cpp" />
     <ClCompile Include="main\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Core\ent\market\Market.h" />
     <ClInclude Include="Core\Lib\Lib.h" />
+    <ClInclude Include="UI\Menu\Menu.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
